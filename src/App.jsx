@@ -1,4 +1,4 @@
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {useState} from 'react';
 
 
@@ -23,7 +23,7 @@ let toggleBtnMenu=toggleMenu?'open':'';
 
        <nav className="flex items-center justify-between font-bold">
 
-          <img src="../images/logo.svg" alt="Logo" />
+          <img src="/images/logo.svg" alt="Logo" />
           <div className="hidden h-10 font-alata text-white md:flex md:space-x-8">
 
             <div className="group">
@@ -87,7 +87,7 @@ let toggleBtnMenu=toggleMenu?'open':'';
     {/* Feature Section */}
     <section id="feature">
       <div className="relative container flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0 ">
-        <img src="../images/desktop/image-interactive.jpg" alt="interactive vr" />
+        <img src="/images/desktop/image-interactive.jpg" alt="interactive vr" />
 
         <div className="top-48 pr-0 bg-white md:absolute md:right-0 md:py-20 md:pl-20">
 
