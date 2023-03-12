@@ -2,13 +2,14 @@ import { Link } from 'react-router-dom';
 import {useState} from 'react';
 
 
+
 function App() {
 
 const [toggleMenu,setToggleMenu] = useState(false);
-const menu= document.getElementById('menu');
 
 const handleToggle=() => {
 
+  let menu= document.getElementById('menu');
   setToggleMenu(!toggleMenu);
   menu.classList.toggle('flex');
   menu.classList.toggle('hidden');
